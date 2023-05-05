@@ -52,30 +52,31 @@ body {
         }
 
         &__btn {
-            width: 5vw;
+            width: 4vw;
         }
     }
+}
 
-    .infos {
-        margin-top: 1vw;
-
-        h2 {
-            padding-top: 1vw;
-        }
-    }
-
-    .infos-2 {
+.infos {
+    line-height: 1.5;
+    
+    .weather {
         display: flex;
         align-items: center;
-         
+
         .icon {
-            width: 54px;
+            width: 4vw;
+            margin-left: 1vw;
         }
     }
+}
 
-    .conditions {
-        padding-top: 2vw;
-    }
+.load {
+    text-align: center;
+}
+
+.active {
+    opacity: 1;
 }
 
 @keyframes fadeCard {
