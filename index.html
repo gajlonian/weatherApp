@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <form class="form">
+                    <input class="form__search" type="text" placeholder="Search" />
+                    <button class="form__btn">
+                        <img src="./assets/img/3844432_magnifier_search_zoom_icon.png" alt="Search icon" />
+                    </button>
+                </form>
+                <div class="infos">
+                    <h1 class="city">Weather in <span></span></h1>
+                    <h2 class="temp"></h2>
+                </div>
+                
+                <div class="infos-2">
+                    <span class="description"></span>
+                    <img src="" alt="" class="icon" />
+                </div>
+                <div class="conditions">
+                    <div class="humidity">Humidity: <span></span></div>
+                    <div class="wind">Wind speed: <span></span></div>
+                </div>
+            </div>
+        </div>
+
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>
