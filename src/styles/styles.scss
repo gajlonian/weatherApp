@@ -59,7 +59,12 @@ body {
 
 .infos {
     line-height: 1.5;
-    
+    display: none;
+
+    .temp, .wind, .humidity {
+        padding-top: 1vw;
+    }
+
     .weather {
         display: flex;
         align-items: center;
@@ -69,14 +74,6 @@ body {
             margin-left: 1vw;
         }
     }
-}
-
-.load {
-    text-align: center;
-}
-
-.active {
-    opacity: 1;
 }
 
 @keyframes fadeCard {

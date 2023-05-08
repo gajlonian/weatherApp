@@ -1,6 +1,6 @@
+const apiKey = "3e091190429e0f74ae16f6a97e7ab6a5";
 const searchBar = document.querySelector(".form__search");
 const searchBtn = document.querySelector(".form__btn");
-const apiKey = "3e091190429e0f74ae16f6a97e7ab6a5";
 const loading = document.querySelector(".load")
 const infos = document.querySelector(".infos")
 
@@ -42,6 +42,8 @@ async function fetchWeather(city) {
 
 }
 
+fetchWeather("antananarivo");
+
 searchBtn.addEventListener("click", function (event) {
     event.preventDefault();
     fetchWeather(searchBar.value);
@@ -55,4 +57,4 @@ searchBar.addEventListener("keyup", function (event) {
     }
 });
 
-fetchWeather("antananarivo");
+
