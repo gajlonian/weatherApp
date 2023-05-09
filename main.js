@@ -1,3 +1,5 @@
+import './src/styles/styles.scss'
+
 const apiKey = "3e091190429e0f74ae16f6a97e7ab6a5";
 const searchBar = document.querySelector(".form__search");
 const searchBtn = document.querySelector(".form__btn");
